@@ -62,4 +62,8 @@ public class Employee {
     public void setLastSalaryAdjustmentDate(LocalDate lastSalaryAdjustmentDate) {
         this.lastSalaryAdjustmentDate = lastSalaryAdjustmentDate;
     }
+
+    public void promote(Position newPosition) {
+        this.position = newPosition;
+    }
 }
